@@ -51,7 +51,7 @@ if __name__ == "__main__":
     if len(sys.argv) < 4:
         print("用法错误。请使用格式:")
         print('python rename_batch.py "[输入文件夹]" "[旧前缀A]" "[新前缀C]"')
-        print('示例: python rename_batch.py "./audio" "民法" "Law"')
+        print('示例: python rename_batch.py "./audio" "TrackA" "FileA"')
     else:
         input_folder = sys.argv[1]
         prefix_a = sys.argv[2]
